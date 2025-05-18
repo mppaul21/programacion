@@ -1,0 +1,152 @@
+body {
+    font-family: "Noto Serif", serif;
+    line-height: 1;
+    gap: 10px;
+    color: #000;
+    background: #fddbdb;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.668), rgba(233, 203, 203, 0.351)), url('../static-portada/fondo.jpg');
+    background-size: cover;
+    /* Recorta la imagen para cubrir */
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 55px 2rem;
+    border-radius: 12px;
+    border: 7px solid #9b1919;
+    text-align: center;
+    text-shadow: #a38484 0 3px 3px;
+}
+
+
+.img-ia {
+    margin: 1.5rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #9b1919;
+    padding: 0rem;
+}
+
+u {
+    text-decoration: underline;
+    color: #9b1919;
+    line-height: 0.;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: right;
+    text-align: right;
+    font-size: 4rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    font-weight: underline;
+    color: #9b1919;
+}
+
+h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: right;
+    text-align: right;
+    font-size: 3rem;
+    margin: 1rem;
+    color: #9b1919;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: none;
+    padding: 0rem;
+    gap: 10px;
+    margin-bottom: 0rem;
+}
+
+
+.linea {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin: 13px;
+    gap: 15px;
+    font-size: 1.8rem;
+}
+
+.linea h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.datos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1px;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.img-code {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    margin: 0rem;
+    max-width: 100%;
+    width: 500px;
+    object-fit: cover;
+    padding: 0rem;
+    height: 290px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #9b1919;
+}
+
+h2 {
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #9b1919;
+    font-weight: bold;
+}
+
+
+
+.anio-lectivo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-shadow: #a38484 0 3px 3px;
+}
+
+h3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    color: #9b1919;
+}
+
+h4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    font-weight: normal;
+    color: #000;
+}
